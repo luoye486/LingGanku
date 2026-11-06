@@ -1,0 +1,265 @@
+{
+  "updated_at": "2026-10-26 20:58:38",
+  "license": "CC0-1.0（本项目原创，可自由使用/修改/商用，无需署名）",
+  "palette": {
+    "k": "#12101e",
+    "d": "#25243a",
+    "w": "#f6f6fb",
+    "g": "#a9b0c7",
+    "G": "#666e8c",
+    "D": "#3c4159",
+    "r": "#e04848",
+    "R": "#9d2740",
+    "q": "#ff8f8f",
+    "o": "#e8883a",
+    "y": "#f5c542",
+    "Y": "#b8862a",
+    "z": "#fff2b0",
+    "n": "#6abe30",
+    "N": "#3d7a22",
+    "m": "#a8e05f",
+    "b": "#4a7bd6",
+    "B": "#2a4a8c",
+    "v": "#7fa8ee",
+    "c": "#63d9e8",
+    "C": "#28848f",
+    "s": "#f2c48d",
+    "S": "#c98f5a",
+    "h": "#ffe6c0",
+    "p": "#8b5cf6",
+    "P": "#553ba0",
+    "t": "#8a5a3b",
+    "T": "#573524",
+    "u": "#c08a5a",
+    "e": "#9aa3b8",
+    "E": "#5d6478"
+  },
+  "sheets": [
+    {
+      "file": "assets/pixel/characters/pixel-hero-idle.png",
+      "frame_w": 26,
+      "frame_h": 26,
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "note": "待机 6 帧（含眨眼）"
+    },
+    {
+      "file": "assets/pixel/characters/pixel-hero-run.png",
+      "frame_w": 26,
+      "frame_h": 26,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "note": "奔跑 8 帧（接触/过渡/伸展）"
+    },
+    {
+      "file": "assets/pixel/characters/pixel-hero-jump.png",
+      "frame_w": 26,
+      "frame_h": 26,
+      "frames": 4,
+      "fps": 8,
+      "loop": false,
+      "note": "跳跃 4 帧（起跳/收腿/滞空/下落）"
+    },
+    {
+      "file": "assets/pixel/characters/pixel-hero-attack.png",
+      "frame_w": 26,
+      "frame_h": 26,
+      "frames": 5,
+      "fps": 12,
+      "loop": false,
+      "note": "挥剑 5 帧（举剑/上挑/横斩/收势）"
+    },
+    {
+      "file": "assets/pixel/characters/pixel-slime.png",
+      "frame_w": 28,
+      "frame_h": 28,
+      "frames": 6,
+      "fps": 8,
+      "loop": true,
+      "note": "史莱姆 6 帧（挤压回弹 + 眨眼）"
+    },
+    {
+      "file": "assets/pixel/characters/pixel-bat.png",
+      "frame_w": 28,
+      "frame_h": 28,
+      "frames": 6,
+      "fps": 14,
+      "loop": true,
+      "note": "蝙蝠 6 帧（振翅）"
+    },
+    {
+      "file": "assets/pixel/characters/pixel-ghost.png",
+      "frame_w": 28,
+      "frame_h": 28,
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "note": "幽灵 6 帧（漂浮 + 眨眼）"
+    },
+    {
+      "file": "assets/pixel/items/pixel-coin.png",
+      "frame_w": 20,
+      "frame_h": 20,
+      "frames": 8,
+      "fps": 12,
+      "loop": true,
+      "note": "金币 8 帧旋转"
+    },
+    {
+      "file": "assets/pixel/items/pixel-gem.png",
+      "frame_w": 20,
+      "frame_h": 20,
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "note": "宝石 6 帧闪光"
+    },
+    {
+      "file": "assets/pixel/items/pixel-heart.png",
+      "frame_w": 20,
+      "frame_h": 20,
+      "frames": 3,
+      "fps": 1,
+      "loop": false,
+      "note": "血量 3 态（满/半/空）"
+    },
+    {
+      "file": "assets/pixel/items/pixel-star.png",
+      "frame_w": 20,
+      "frame_h": 20,
+      "frames": 6,
+      "fps": 6,
+      "loop": true,
+      "note": "星星 6 帧闪烁"
+    },
+    {
+      "file": "assets/pixel/items/pixel-chest.png",
+      "frame_w": 22,
+      "frame_h": 20,
+      "frames": 2,
+      "fps": 2,
+      "loop": false,
+      "note": "宝箱 2 态（关/开）"
+    }
+  ],
+  "tileset": {
+    "file": "assets/pixel/tiles/pixel-tileset.png",
+    "tile": 16,
+    "cols": 7,
+    "rows": 4,
+    "cells": [
+      {
+        "name": "grass_tl",
+        "col": 0,
+        "row": 0
+      },
+      {
+        "name": "grass_t",
+        "col": 1,
+        "row": 0
+      },
+      {
+        "name": "grass_tr",
+        "col": 2,
+        "row": 0
+      },
+      {
+        "name": "grass_l",
+        "col": 3,
+        "row": 0
+      },
+      {
+        "name": "grass_c",
+        "col": 4,
+        "row": 0
+      },
+      {
+        "name": "grass_r",
+        "col": 5,
+        "row": 0
+      },
+      {
+        "name": "grass_bl",
+        "col": 6,
+        "row": 0
+      },
+      {
+        "name": "grass_b",
+        "col": 0,
+        "row": 1
+      },
+      {
+        "name": "grass_br",
+        "col": 1,
+        "row": 1
+      },
+      {
+        "name": "stone",
+        "col": 2,
+        "row": 1
+      },
+      {
+        "name": "brick",
+        "col": 3,
+        "row": 1
+      },
+      {
+        "name": "sand",
+        "col": 4,
+        "row": 1
+      },
+      {
+        "name": "wood",
+        "col": 5,
+        "row": 1
+      },
+      {
+        "name": "platform",
+        "col": 6,
+        "row": 1
+      },
+      {
+        "name": "ladder",
+        "col": 0,
+        "row": 2
+      },
+      {
+        "name": "spikes",
+        "col": 1,
+        "row": 2
+      },
+      {
+        "name": "water_a",
+        "col": 2,
+        "row": 2
+      },
+      {
+        "name": "water_b",
+        "col": 3,
+        "row": 2
+      },
+      {
+        "name": "lava_a",
+        "col": 4,
+        "row": 2
+      },
+      {
+        "name": "lava_b",
+        "col": 5,
+        "row": 2
+      },
+      {
+        "name": "bush",
+        "col": 6,
+        "row": 2
+      },
+      {
+        "name": "flower",
+        "col": 0,
+        "row": 3
+      }
+    ]
+  }
+}

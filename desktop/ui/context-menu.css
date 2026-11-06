@@ -1,0 +1,4 @@
+.context-menu{position:fixed;z-index:10000;min-width:210px;max-width:min(320px,calc(100vw - 12px));max-height:calc(100vh - 12px);overflow:auto;background:var(--panel);border:1px solid var(--line-2);box-shadow:4px 4px 0 var(--line);padding:6px;color:var(--text)}
+.context-menu-title{font:11px/1.5 var(--mono);color:var(--dim);padding:6px 10px 9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-bottom:1px solid var(--line);margin-bottom:4px}
+.context-menu button{display:block;width:100%;border:0;background:transparent;color:inherit;text-align:left;padding:9px 10px;font:13px/1.4 inherit;cursor:pointer}
+.context-menu button:hover,.context-menu button:focus-visible{background:var(--text);color:var(--bg);outline:none}.context-menu button.danger{color:var(--red)}.context-menu button.danger:hover,.context-menu button.danger:focus-visible{background:var(--red);color:var(--bg)}

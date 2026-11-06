@@ -1,0 +1,203 @@
+{
+  "updated_at": "2026-10-26T15:59:59+08:00",
+  "items": [
+    {
+      "file": "assets/audio/bgm/bgm-132-hazy-after-hours.mp3",
+      "type": "audio",
+      "title": "Hazy After Hours",
+      "author": "Mixkit",
+      "source": "Mixkit Free Stock Music",
+      "source_url": "https://mixkit.co/free-stock-music/",
+      "license": "Mixkit Free License",
+      "license_url": "https://mixkit.co/license/",
+      "note": "可免费用于商业项目、无需署名；不可将音频单独转售或作为素材包再分发。"
+    },
+    {
+      "file": "assets/audio/bgm/bgm-580-sun-and-his-daughter.mp3",
+      "type": "audio",
+      "title": "Sun and His Daughter",
+      "author": "Mixkit",
+      "source": "Mixkit Free Stock Music",
+      "source_url": "https://mixkit.co/free-stock-music/",
+      "license": "Mixkit Free License",
+      "license_url": "https://mixkit.co/license/",
+      "note": "可免费用于商业项目、无需署名；不可将音频单独转售或作为素材包再分发。"
+    },
+    {
+      "file": "assets/audio/bgm/bgm-738-hip-hop-02.mp3",
+      "type": "audio",
+      "title": "Hip Hop 02",
+      "author": "Mixkit",
+      "source": "Mixkit Free Stock Music",
+      "source_url": "https://mixkit.co/free-stock-music/",
+      "license": "Mixkit Free License",
+      "license_url": "https://mixkit.co/license/",
+      "note": "可免费用于商业项目、无需署名；不可将音频单独转售或作为素材包再分发。"
+    },
+    {
+      "file": "assets/images/photos/photo-0-alejandro-escamilla.jpg",
+      "type": "image",
+      "title": "Photo #0",
+      "author": "Alejandro Escamilla",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/yC-Yzbqy7PY",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-10-paul-jarvis.jpg",
+      "type": "image",
+      "title": "Photo #10",
+      "author": "Paul Jarvis",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/6J--NXulQCs",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-20-aleks-dorohovich.jpg",
+      "type": "image",
+      "title": "Photo #20",
+      "author": "Aleks Dorohovich",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/nJdwUHmaY8A",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-26-vadim-sherbakov.jpg",
+      "type": "image",
+      "title": "Photo #26",
+      "author": "Vadim Sherbakov",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/tCICLJ5ktBE",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-27-yoni-kaplan-nadel.jpg",
+      "type": "image",
+      "title": "Photo #27",
+      "author": "Yoni Kaplan-Nadel",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/iJnZwLBOB1I",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-28-jerry-adney.jpg",
+      "type": "image",
+      "title": "Photo #28",
+      "author": "Jerry Adney",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/_WiFMBRT7Aw",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-29-go-wild.jpg",
+      "type": "image",
+      "title": "Photo #29",
+      "author": "Go Wild",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/V0yAek6BgGk",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-30-shyamanta-baruah.jpg",
+      "type": "image",
+      "title": "Photo #30",
+      "author": "Shyamanta Baruah",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/aeVA-j1y2BY",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-31-how-soon-ngu.jpg",
+      "type": "image",
+      "title": "Photo #31",
+      "author": "How-Soon Ngu",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/7Vz3DtQDT3Q",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-32-rodrigo-melo.jpg",
+      "type": "image",
+      "title": "Photo #32",
+      "author": "Rodrigo Melo",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/eG3k60PrTGY",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-35-shane-colella.jpg",
+      "type": "image",
+      "title": "Photo #35",
+      "author": "Shane Colella",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/znM0ujn2RUA",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/images/photos/photo-37-austin-neill.jpg",
+      "type": "image",
+      "title": "Photo #37",
+      "author": "Austin Neill",
+      "source": "Lorem Picsum (原始图片来自 Unsplash)",
+      "source_url": "https://unsplash.com/photos/erTjj730fMk",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "note": "免费商用、无需授权，建议署名；不得用他人照片冒充本人创作。"
+    },
+    {
+      "file": "assets/video/stock/video-man-walking-on-street-720p.mp4",
+      "type": "video",
+      "title": "man walking on street",
+      "author": "Coverr",
+      "source": "Coverr Free Stock Video",
+      "source_url": "https://coverr.co/videos/a-man-walks-into-a-street-and-looks-around-confidently",
+      "license": "Coverr License",
+      "license_url": "https://coverr.co/license",
+      "note": "可免费商用、无需署名；不可将原片直接转售或作为素材包再分发。"
+    },
+    {
+      "file": "assets/video/stock/video-a-road-through-the-hills-720p.mp4",
+      "type": "video",
+      "title": "a road through the hills",
+      "author": "Coverr",
+      "source": "Coverr Free Stock Video",
+      "source_url": "https://coverr.co/videos/a-road-through-the-hills",
+      "license": "Coverr License",
+      "license_url": "https://coverr.co/license",
+      "note": "可免费商用、无需署名；不可将原片直接转售或作为素材包再分发。"
+    },
+    {
+      "file": "assets/video/stock/video-red-ford-gt-car-720p.mp4",
+      "type": "video",
+      "title": "red ford gt car",
+      "author": "Coverr",
+      "source": "Coverr Free Stock Video",
+      "source_url": "https://coverr.co/videos/red-ford-gt-car",
+      "license": "Coverr License",
+      "license_url": "https://coverr.co/license",
+      "note": "可免费商用、无需署名；不可将原片直接转售或作为素材包再分发。"
+    }
+  ]
+}

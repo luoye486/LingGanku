@@ -1,0 +1,41 @@
+# Local application data, credentials, and user uploads
+.data/
+app/config.json
+/assets/uploads/
+/bt/
+
+# Rust and Tauri build output
+/target/
+/desktop/target/
+/desktop/target-*/
+**/target/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local toolchain, build logs, and verification artifacts
+/_toolchain/
+/_rt/
+/_verification/
+/_build.log
+/_verify_*.json
+/_verify_*.html
+
+# Historical portable releases and unpacked duplicate binaries
+/desktop/LingGanWu-2.*-windows-x64.zip
+/desktop/LingGanWu-2.5.0/
+/desktop/LingGanWu-2.6.0/
+/desktop/LingGanWu-2.7.0/
+/desktop/build-*.log
+/desktop/dist/LingGanWu.exe
+/desktop/dist/WebView2Loader.dll
+
+# Local editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini

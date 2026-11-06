@@ -1,0 +1,24 @@
+/* Markdown structure additions; load after style.css. Shared preview containers
+   use .output (including DocPage), or opt in with .markdown-view. */
+:is(.output,.markdown-view){overflow-wrap:anywhere;line-height:1.8}
+:is(.output,.markdown-view) :is(h1,h2,h3,h4,h5,h6){color:var(--text);line-height:1.35;margin:1.5em 0 .65em;font-weight:650}
+:is(.output,.markdown-view) h1{font-size:1.9em}
+:is(.output,.markdown-view) h2{font-size:1.55em}
+:is(.output,.markdown-view) h3{font-size:1.3em}
+:is(.output,.markdown-view) h4{font-size:1.12em}
+:is(.output,.markdown-view) h5{font-size:1em}
+:is(.output,.markdown-view) h6{font-size:.92em;color:var(--dim)}
+:is(.output,.markdown-view)>:first-child{margin-top:0}
+:is(.output,.markdown-view) :is(ul,ol){padding-left:1.8em;margin:.65em 0}
+:is(.output,.markdown-view) li>:is(ul,ol){margin:.25em 0}
+:is(.output,.markdown-view) li>p{margin:.4em 0}
+:is(.output,.markdown-view) input[type="checkbox"][disabled]{vertical-align:middle;margin:0 .45em 0 -.2em;accent-color:var(--accent);cursor:default}
+:is(.output,.markdown-view) pre{white-space:pre;overflow:auto;max-width:100%;tab-size:4}
+:is(.output,.markdown-view) pre code{white-space:inherit;word-break:normal;overflow-wrap:normal;background:transparent;padding:0}
+:is(.output,.markdown-view) table{display:block;overflow-x:auto;max-width:100%;border-collapse:collapse;margin:1em 0}
+:is(.output,.markdown-view) :is(th,td){border:1px solid var(--line-2);padding:.45em .75em;min-width:3em}
+:is(.output,.markdown-view) th{font-weight:600;background:var(--panel)}
+:is(.output,.markdown-view) mark{background:var(--accent-soft,#e7cf7040);color:inherit;padding:0 .12em;border-radius:2px}
+:is(.output,.markdown-view) img{max-width:100%;height:auto}
+:is(.output,.markdown-view) blockquote{margin:1em 0;padding:.1em 1em;border-left:2px solid var(--line-2);color:var(--dim)}
+:is(.output,.markdown-view) .img-missing{color:var(--dim);font-size:.9em}

@@ -1,0 +1,97 @@
+/* Standalone semantic results dialog; no shared #modal selectors. */
+.semantic-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, .65);
+  color: var(--text);
+}
+.semantic-dialog {
+  display: flex;
+  flex-direction: column;
+  width: min(760px, 100%);
+  max-height: min(88vh, 960px);
+  border: 1px solid var(--line-2, var(--text));
+  border-radius: 5px;
+  background: var(--panel, var(--bg));
+  box-shadow: var(--shadow, 0 20px 70px rgba(0, 0, 0, .35));
+  overflow: hidden;
+}
+.semantic-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--line);
+}
+.semantic-head h2 { margin: 0; font: 500 22px/1.3 var(--serif, serif); }
+.semantic-dialog button { color: var(--text); font: inherit; cursor: pointer; }
+.semantic-dialog button:disabled { opacity: .5; cursor: wait; }
+.semantic-dialog button:focus-visible { outline: 2px solid var(--text); outline-offset: -3px; }
+.semantic-close {
+  flex: 0 0 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--line-2);
+  border-radius: 3px;
+  background: transparent;
+  font-size: 24px !important;
+  line-height: 1;
+}
+.semantic-status {
+  flex: 0 0 auto;
+  padding: 16px 22px 0;
+  margin: 0;
+  max-height: 30vh;
+  overflow: auto;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.semantic-content { overflow: auto; padding: 12px 22px 22px; overscroll-behavior: contain; }
+.semantic-query, .semantic-coverage, .semantic-help {
+  margin: 0 0 10px;
+  color: var(--dim);
+  font-size: 12px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.semantic-results { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 10px; }
+.semantic-result { min-width: 0; }
+.semantic-result-open {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid var(--line-2);
+  border-radius: 3px;
+  background: var(--panel-2, var(--bg-2));
+  text-align: left;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.semantic-result-open:hover:not(:disabled), .semantic-close:hover:not(:disabled), .semantic-settings:hover:not(:disabled) {
+  border-color: var(--text);
+  background: var(--panel-3, var(--panel));
+}
+.semantic-title { font-size: 15px; font-weight: 600; }
+.semantic-source { font-size: 11px; padding: 1px 6px; border: 1px solid var(--line-2); border-radius: 2px; }
+.semantic-path, .semantic-reason, .semantic-score { color: var(--dim); font-size: 12px; white-space: pre-wrap; }
+.semantic-snippet { font-size: 13px; white-space: pre-wrap; }
+.semantic-score { font-variant-numeric: tabular-nums; }
+.semantic-settings { padding: 9px 14px; border: 1px solid var(--line-2); border-radius: 3px; background: var(--panel-2); }
+@media (max-width: 600px) {
+  .semantic-overlay { padding: 10px; }
+  .semantic-dialog { max-height: 94vh; }
+  .semantic-head { padding: 14px; }
+  .semantic-status { padding: 14px 14px 0; }
+  .semantic-content { padding: 10px 14px 14px; }
+}
